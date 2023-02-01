@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>She Codes Plus</title>
+    <meta charset="UTF-8" />
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  
+  </head>
+
+  <body>
+    <style>
+      body{
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/527/original/rainy.gif?1672918598);
+        background-size: cover;
+        background-size: 100%;
+      }
+      .container{
+        padding-left: 150px;
+        background-image:url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/061/527/original/rainy.gif?1672918598);
+        background-size: cover;
+        font-family: 'Times New Roman', Times, serif;
+        border-color: rgb(204, 200, 200);
+        border-style:none;
+        box-shadow: 2px 8px 8px 2px; 
+        margin-top:100px;
+        color: black;
+        font-weight: solid;
+        
+      }
+      
+      .flag{
+        justify-content: space-between;
+        margin-top: 40px;
+        font-size: 50px;
+        display: flex;
+        font-family: monospace;
+      }
+      
+      .logo{
+        margin: 0 auto;
+        display: flex;
+        margin-left: 80px;
+        margin-top: 10px;
+        
+      }
+      h1{
+        margin-right:80px;
+        border-color: blue;
+      }
+      .esther{
+        font-family: monospace;
+      }
+      .globe{
+        display: block;
+        transition: all 200ms ease-in-out;
+        opacity: 0.7;
+        font-size: 80px;
+         display: flex;
+         margin-left:350px;
+         border-radius: 50%;
+         justify-content: center;
+      }
+      .globe:hover{
+        cursor: pointer;
+        border-style: solid; 
+        font-size: 80px;
+        border-color: rgb(189, 189, 235);
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%)
+      }
+      .Mon{
+        display: block;
+        transition: all 200ms ease-in-out;
+        opacity: 0.7;
+        border-radius: 50%;
+        justify-content: center;
+        display: flex;
+        background-size: 10px;
+        font-size: 80px;
+        
+      }
+      .Mon:hover{
+        cursor: pointer;
+        border-style: solid; 
+        font-size: 80px;
+        border-color: rgb(189, 189, 235);
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%)
+      }
+      .Tue{
+        display: block;
+        transition: all 200ms ease-in-out;
+        opacity: 0.7;
+        border-radius: 50%;
+        justify-content: center;
+         display: flex;
+          margin: 3px; 
+        font-size: 80px;
+        background-size: 10px;
+        
+      }
+      .Tue:hover{
+        cursor: pointer;
+        border-style: solid; 
+        font-size: 80px;
+        border-color: rgb(189, 189, 235);
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%)
+      }
+      .Wed{
+        display: block;
+        transition: all 200ms ease-in-out;
+        opacity: 0.7;
+        border-radius: 50%;
+        justify-content: center;
+         display: flex;
+          margin: 3px; 
+        font-size: 80px;
+        background-size: 10px;
+        
+      }
+      .Wed:hover{
+        cursor: pointer;
+        font-size: 80px;
+        border-color: rgb(189, 189, 235);
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%)
+      }
+      .Thur{
+        display: block;
+        transition: all 200ms ease-in-out;
+        opacity: 0.7;
+        border-radius: 50%;
+        justify-content: center;
+         display: flex;
+          margin: 3px; 
+        font-size: 80px;
+        background-size: 10px;
+      }
+      .Thur:hover{
+        cursor: pointer;
+        border-style: solid;
+         border-color: blue;
+        font-size: 80px;
+        border-color: rgb(189, 189, 235);
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%)
+      }
+      .Fri{
+        display: block;
+        transition: all 200ms ease-in-out;
+        opacity: 0.7;
+        border-radius: 50%;
+        justify-content: center;
+         display: flex;
+          margin: 3px; 
+        font-size: 80px;
+        background-size: 10px;
+      }
+      .Fri:hover{
+        
+        cursor: pointer;
+        border-style: solid;
+        font-size: 80px;
+        border-color: rgb(189, 189, 235);
+        background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+      }
+      .dateToday{
+        line-height: 1px;
+      }
+      #describe{
+        font-size: 20px;
+        font-family:  monospace;
+        
+
+      }
+
+    </style>
+
+    <div class="container">
+      <img class="logo" src="images/sumbo.png" alt="She Codes Plus Logo" class="logo" width="100px" height="70px" />
+       <br />
+          <form id="search-form">
+            <input type="text" 
+              placeholder = "Enter a city" 
+              autocomplete="off"
+              autofocus="on"
+              style=" width:500px;height:40px ; background-color: rgb(220, 218, 218);border-style: hidden;" 
+              id="search-input"
+            />
+          
+            <input type="submit" value="Search" 
+              style="background-color: blue; color: white; text-align: center; width:120px;height:40px" 
+            />
+            
+          </form>
+
+        <div class="row">
+          <div class="flag">
+              <div id="comp" > city </div>
+              
+              <div class="col-2"></div>
+              <a href="#"><button type="button" style="background-color: blue; border-radius: 50%; height: 80px;" id="playLocation"> ▶ </button></a>
+                <div id="describe">clear sky</div>
+              <div class="col-2 globe " >🌏</div>
+          </div>  
+        </div>  
+
+          <h5 class="dateToday">
+            Friday 14:14 
+          </h5>
+        
+      <h1>
+        <div class="row"> 
+          <div class="col-2 Mon">⛅️</div>
+          <div class="col-2 Tue">🌤</div>
+          <div class="col-2 Wed" >🌩</div>
+          <div class="col-2 Thur" >⛈</div>
+         <div class="col-2 Fri" >🌦</div>
+        </div>
+      </h1 >
+        <div class="row" > 
+          <div class="col-2" style="color:black;" id="temp">Temperature</div>
+          <div class="col-2" style="color: black;" id="humidity">Humidity</div>
+          <div class="col-2" style="color: black;" id="windSpeed">Wind Speed</div>
+          <div class="col-2" style="color: black;" id="geoLocation">Geolocation</div>
+          <div class="col-2" style="color: black;" id="country">Country</div>
+            <br/>
+            <br/>
+              <p class="esther">This page was created by Esther Jolomi</p>
+        </div>
+    </div>
+  </body>
+  <script src="src/index.js"> 
+
+
+  </script>
+</html>
