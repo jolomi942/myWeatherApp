@@ -1,33 +1,249 @@
 body {
-  font-family: sans-serif;
-  padding: 0 20px;
-  
+  background-image: url(https://i.pinimg.com/originals/89/8e/a6/898ea68bc5f05e3686d6f4d59e3cb695.gif);
+  background-size: cover;
 }
 
-h1 {
+.container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-color: rgb(204, 200, 200);
+  color: black;
+  font-weight: solid;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
   text-align: center;
-  font-weight: 900;
-  margin: 0;
-  font-size: 34px;
-  line-height: 48px;
- 
-}
-
-h1 h2,
-h3 {
-  color: #231d3c;
 }
 
 .logo {
-  display: block;
-  margin: 30px auto;
-  width: 150px;
-  align-items: center;
+  height: 127px;
+  width: 335px;
+  padding: 10px;
 }
-.flag{
-    margin: 100px;
-    border-radius: 50px;
-    padding: 50px;
-    border-color: red;
-    border-width: 20px;
+
+.flag {
+  text-align: center;
+  display: flex;
+  margin-top: 100px;
+  font-size: 100px;
+  font-family: monospace;
+}
+
+h1 {
+  margin-right: 80px;
+  border-color: blue;
+  font-family: monospace;
+}
+#globe {
+  transition: all 200ms ease-in-out;
+  opacity: 0.7;
+  font-size: 50px;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+}
+
+.globe:hover {
+  cursor: pointer;
+  border-style: solid;
+  font-size: 50px;
+  border-color: rgb(189, 189, 235);
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+.tem {
+  display: block;
+  transition: all 200ms ease-in-out;
+  opacity: 0.7;
+  border-radius: 50%;
+  text-align: center;
+  font-family: monospace;
+  margin: 3px;
+  background-size: 5px;
+  font-size: 80px;
+}
+.tem:hover {
+  cursor: pointer;
+  border-style: solid;
+  font-size: 80px;
+  border-color: rgb(189, 189, 235);
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+.hum {
+  display: block;
+  transition: all 200ms ease-in-out;
+  opacity: 0.7;
+  border-radius: 50%;
+  justify-content: center;
+  font-family: monospace;
+  text-align: center;
+  margin: 3px;
+  font-size: 80px;
+  background-size: 5px;
+}
+.hum:hover {
+  cursor: pointer;
+  border-style: solid;
+  font-size: 80px;
+  border-color: rgb(189, 189, 235);
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+.wind {
+  display: block;
+  transition: all 200ms ease-in-out;
+  opacity: 0.7;
+  border-radius: 50%;
+  justify-content: center;
+  font-family: monospace;
+  margin: 3px;
+  font-size: 80px;
+  background-size: 5px;
+}
+.wind:hover {
+  cursor: pointer;
+  font-size: 80px;
+  border-color: rgb(189, 189, 235);
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+.geo {
+  display: block;
+  transition: all 200ms ease-in-out;
+  opacity: 0.7;
+  border-radius: 50%;
+  justify-content: center;
+  font-family: monospace;
+  margin: 3px;
+  font-size: 80px;
+  background-size: 5px;
+}
+.geo:hover {
+  cursor: pointer;
+  border-style: solid;
+  border-color: blue;
+  font-size: 80px;
+  border-color: rgb(189, 189, 235);
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+.count {
+  display: block;
+  transition: all 200ms ease-in-out;
+  opacity: 0.7;
+  border-radius: 50%;
+  justify-content: center;
+  font-family: monospace;
+  margin-left: 2px;
+  font-size: 80px;
+  background-size: 5px;
+}
+.count:hover {
+  cursor: pointer;
+  border-style: solid;
+  font-size: 80px;
+  border-color: rgb(189, 189, 235);
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+#country {
+  margin-left: -25px;
+}
+
+.dateToday {
+  line-height: 1px;
+}
+#describe {
+  font-size: 30px;
+  height: 50px;
+}
+
+.input-1 {
+  width: 750px;
+  height: 40px;
+  background-color: rgb(220, 218, 218);
+  border-style: hidden;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-left: -70px;
+  text-align: center;
+}
+
+.input-2 {
+  background-color: goldenrod;
+  color: white;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.content {
+  margin-left: 50px;
+}
+
+#comp {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+#dateToday {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+#set {
+  font-size: 25px;
+}
+#temp {
+  font-size: 30px;
+}
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  text-align: left;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  font-family: monospace;
 }

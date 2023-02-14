@@ -1,6 +1,6 @@
 let now = new Date();
 
-let dateToday = document.querySelector(".dateToday");
+let dateToday = document.querySelector("#dateToday");
 
 let hours = now.getHours();
 if (hours < 10) {
@@ -11,15 +11,7 @@ if (minutes < 10) {
   minutes = `0${minutes}`;
 }
 let day = now.getDay();
-let days = [
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday",
-];
+let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
 day = days[now.getDay()];
 dateToday.innerHTML = `${day}, ${hours}:${minutes} `;
 
@@ -38,23 +30,23 @@ function search(event) {
     let weatherTemp = document.querySelector("#temp");
     weather = Math.round(response.data.main.temp);
     fahrenheit = Math.round((weather * 9) / 5 + 32);
-    weatherTemp.innerHTML = `Temperature:${weather}℃/${fahrenheit}℉`;
+    weatherTemp.innerHTML = `${weather}℃/${fahrenheit}℉`;
 
     let weatherHumidity = document.querySelector("#humidity");
     humidity = Math.round(response.data.main.humidity);
-    weatherHumidity.innerHTML = `Humidity:${humidity}%`;
+    weatherHumidity.innerHTML = `Humidity: ${humidity}%`;
 
     let weatherWind = document.querySelector("#windSpeed");
     wind = Math.round(response.data.wind.speed);
-    weatherWind.innerHTML = `Wind Speed:${wind}º`;
+    weatherWind.innerHTML = `Wind Speed: ${wind}º`;
 
     let descriptionTemp = document.querySelector("#describe");
     description = response.data.weather[0].description;
     descriptionTemp.innerHTML = `${description}`;
 
     let weatherTimeZone = document.querySelector("#geoLocation");
-    longitude = response.data.coord.lon;
-    latitude = response.data.coord.lat;
+    longitude = Math.round(response.data.coord.lon);
+    latitude = Math.round(response.data.coord.lat);
     weatherTimeZone.innerHTML = `long:${longitude} lat: ${latitude}`;
 
     let weatherCountry = document.querySelector("#country");
