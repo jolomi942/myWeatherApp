@@ -254,7 +254,7 @@ h1 {
     background-image: url(https://i.pinimg.com/originals/89/8e/a6/898ea68bc5f05e3686d6f4d59e3cb695.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    
   }
   .container { 
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; 
@@ -267,7 +267,7 @@ h1 {
     align-items: center; 
     padding: 10%; 
     text-align: center; 
-    margin-top:30% ;
+   overflow: hidden;
   } 
 
   .logo { 
