@@ -13,7 +13,7 @@ html {
 }
 
 .container {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Roboto;
   border-color: rgb(204, 200, 200);
   color: black;
   font-weight: solid;
@@ -21,8 +21,8 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 250px;
- overflow: hidden;
+  margin-top: 200px;
+  overflow: hidden;
 }
 
 .logo {
@@ -52,7 +52,6 @@ html {
 }
 
 p {
-  
   flex-direction: row;
   justify-content: space-evenly;
 }
