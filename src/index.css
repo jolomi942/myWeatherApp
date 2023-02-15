@@ -1,3 +1,9 @@
+@media screen and (max-width: 600px){
+.column {
+    width: 100%;
+  }
+  }
+
 body {
   background-image: url(https://i.pinimg.com/originals/44/eb/c3/44ebc3095a5deba2973f0e5fd3fb92b5.gif);
   background-size: cover;
@@ -29,6 +35,8 @@ html {
   height: 120px;
   width: 300px;
   padding: 10px;
+  display: block;
+  margin: 0;
 }
 
 .input-1 {
@@ -237,4 +245,5 @@ p {
   /* Height of the footer*/
   height: 40px;
   font-family: cursive;
+}
 }
