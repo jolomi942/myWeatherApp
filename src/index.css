@@ -1,11 +1,5 @@
-@media screen and (max-width: 600px){
-.column {
-    width: 100%;
-  }
-  }
-
 body {
-  background-image: url(https://i.pinimg.com/originals/44/eb/c3/44ebc3095a5deba2973f0e5fd3fb92b5.gif);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/060/685/original/1775b615718992ee092cb93102190b09.jpeg?1672347581);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100%;
@@ -35,8 +29,7 @@ html {
   height: 120px;
   width: 300px;
   padding: 10px;
-  display: block;
-  margin: 0;
+  align-items: center;
 }
 
 .input-1 {
@@ -241,9 +234,8 @@ p {
   position: fixed;
   padding: 10px 10px 0px 10px;
   bottom: 0;
-  text-align: left;
+  text-align: center;
   /* Height of the footer*/
   height: 40px;
   font-family: cursive;
-}
 }
