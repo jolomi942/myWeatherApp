@@ -2,6 +2,12 @@ body {
   background-image: url(https://i.pinimg.com/originals/89/8e/a6/898ea68bc5f05e3686d6f4d59e3cb695.gif);
   background-size: cover;
   background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  
 }
 
 .container {
@@ -9,8 +15,6 @@ body {
   border-color: rgb(204, 200, 200);
   color: black;
   font-weight: solid;
-  width: 50%;
-  height: 50%;
   justify-content: center;
   align-items: center;
   padding: 10%;
@@ -249,174 +253,3 @@ h1 {
   font-family: monospace;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 667px) { 
-  /* Default styles for all screen sizes */
-body {
-  background-image: url(https://i.pinimg.com/originals/89/8e/a6/898ea68bc5f05e3686d6f4d59e3cb695.gif);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.container {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border-color: rgb(204, 200, 200);
-  color: black;
-  font-weight: solid;
-  width: 50%;
-  height: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 10%;
-  text-align: center;
-}
-
-.logo {
-  height: 127px;
-  width: 335px;
-  padding: 10px;
-}
-
-.flag {
-  text-align: center;
-  display: flex;
-  margin-top: 100px;
-  font-size: 100px;
-  font-family: monospace;
-}
-
-h1 {
-  margin-right: 80px;
-  border-color: blue;
-  font-family: monospace;
-}
-
-#globe {
-  transition: all 200ms ease-in-out;
-  opacity: 0.7;
-  font-size: 50px;
-  border-radius: 50%;
-  display: block;
-  height: 40px;
-}
-
-.globe:hover {
-  cursor: pointer;
-  border-style: solid;
-  font-size: 50px;
-  border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
-  );
-}
-
-.tem {
-  display: block;
-  transition: all 200ms ease-in-out;
-  opacity: 0.7;
-  border-radius: 50%;
-  text-align: center;
-  font-family: monospace;
-  margin: 3px;
-  background-size: 5px;
-  font-size: 80px;
-}
-
-.tem:hover {
-  cursor: pointer;
-  border-style: solid;
-  font-size: 80px;
-  border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
-  );
-}
-
-.hum {
-  display: block;
-  transition: all 200ms ease-in-out;
-  opacity: 0.7;
-  border-radius: 50%;
-  justify-content: center;
-  font-family: monospace;
-  text-align: center;
-  margin: 3px;
-  font-size: 80px;
-  background-size: 5px;
-}
-
-
-.geo {
-  display: block;
-  transition: all 200ms ease-in-out;
-  opacity: 0.7;
-  border-radius: 50%;
-  justify-content: center;
-  font-family: monospace;
-  margin: 3px;
-  font-size: 60px;
-  background-size: 5px;
-}
-.count {
-  display: block;
-  transition: all 200ms ease-in-out;
-  opacity: 0.7;
-  border-radius: 50%;
-  justify-content: center;
-  margin-left: 2px;
-  font-size: 60px;
-  background-size: 5px;
-  text-align: 100ox;
-}
-.dateToday {
-  line-height: 1px;
-}
-#describe {
-  font-size: 20px;
-  height: 50px;
-
-}
-.dateToday {
-    line-height: 11px;
-  }
-  #describe {
-    font-size: 24px;
-    height: 47px;
-  }
-  .input-1 {
-width: 280px;
-font-size: 18px;
-}
-.input-2 {
-width: 80px;
-font-size: 16px;
-}
-#comp {
-font-size: 30px;
-line-height: 50px;
-}
-#dateToday {
-font-size: 20px;
-line-height: 40px;
-}
-#set {
-font-size: 20px;
-}
-#temp {
-font-size: 25px;
-}
-
-  #footer {
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
