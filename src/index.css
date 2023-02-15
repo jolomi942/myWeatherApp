@@ -17,6 +17,9 @@ html{
   border-color: rgb(204, 200, 200);
   color: black;
   font-weight: solid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .logo {
