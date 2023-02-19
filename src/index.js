@@ -30,7 +30,7 @@ function search(event) {
     let weatherTemp = document.querySelector("#temp");
     weather = Math.round(response.data.main.temp);
     fahrenheit = Math.round((weather * 9) / 5 + 32);
-    weatherTemp.innerHTML = `<img src="images/temperature.png" alt="temp image" width="25px" height="20px">${weather}℃/${fahrenheit}℉`;
+    weatherTemp.innerHTML = `<img src="images/temperature.png" alt="temp image" width="15px" height="15px">${weather}℃/${fahrenheit}℉`;
 
     let weatherHumidity = document.querySelector("#humidity");
     humidity = Math.round(response.data.main.humidity);

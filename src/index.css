@@ -1,4 +1,3 @@
-
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/067/785/original/44ebc3095a5deba2973f0e5fd3fb92b5.gif?1676475202);
   background-size: cover;
@@ -17,7 +16,7 @@ html {
   font-family: Roboto;
   border-color: rgb(204, 200, 200);
   color: black;
-  font-weight: solid;
+  font-weight: 200px;
   font-size: 20px;
   align-items: center;
   justify-content: center;
@@ -36,15 +35,15 @@ html {
 .input-1 {
   width: 500px;
   height: 50px;
-  background-image:url();
+  background-image: url();
   background-color: rgb(220, 218, 218);
-  border-color: black;
+
   border-radius: 20px;
   font-size: 25px;
   text-align: center;
- 
 }
-
+form {
+}
 .input-2 {
   background-color: goldenrod;
   color: black;
@@ -65,7 +64,7 @@ p {
   font-size: 5px;
   flex-direction: row;
   justify-content: space-between;
-  font-size:30px;
+  font-size: 30px;
   line-height: 30px;
 }
 
@@ -93,21 +92,6 @@ p {
   font-family: monospace;
   font-size: 40px;
 }
-
-#globe:hover {
-  cursor: pointer;
-  border-style: solid;
-  font-size: 50px;
-  border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
-  );
-}
 .tem {
   display: block;
   transition: all 200ms ease-in-out;
@@ -115,8 +99,7 @@ p {
   border-radius: 10%;
   text-align: center;
   font-family: monospace;
-  font-size: 40px;
-  
+  font-size: 50px;
 }
 .tem:hover {
   cursor: pointer;
@@ -124,13 +107,17 @@ p {
   font-size: 50px;
   width: 20px;
   border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+  background: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
   );
 }
 .hum {
@@ -141,19 +128,24 @@ p {
   justify-content: center;
   font-family: monospace;
   text-align: center;
+  font-size: 50px;
 }
 .hum:hover {
   cursor: pointer;
   font-size: 50px;
   width: 20px;
-  border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+  border-color: rgb(26, 26, 29);
+  background: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
   );
 }
 .wind {
@@ -163,20 +155,24 @@ p {
   border-radius: 10%;
   justify-content: center;
   font-family: monospace;
-  font-size: 40px;
+  font-size: 50px;
 }
 .wind:hover {
   cursor: pointer;
-  font-size: 10px;
+  font-size: 50px;
   width: 20px;
   border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+  background: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
   );
 }
 .geo {
@@ -186,22 +182,26 @@ p {
   border-radius: 10%;
   justify-content: center;
   font-family: monospace;
-  font-size: 40px;
+  font-size: 50px;
   width: 5px;
 }
 
 .geo:hover {
   cursor: pointer;
   font-size: 50px;
-  
+
   border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+  background: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
   );
 }
 .count {
@@ -216,15 +216,19 @@ p {
 .count:hover {
   cursor: pointer;
   font-size: 50px;
-  
+
   border-color: rgb(189, 189, 235);
-  background: radial-gradient(
-    328px at 2.9% 15%,
-    rgb(191, 224, 251) 0%,
-    rgb(232, 233, 251) 25.8%,
-    rgb(252, 239, 250) 50.8%,
-    rgb(234, 251, 251) 77.6%,
-    rgb(240, 251, 244) 100.7%
+  background: linear-gradient(
+    to top,
+    #505285 0%,
+    #585e92 12%,
+    #65689f 25%,
+    #7474b0 37%,
+    #7e7ebb 50%,
+    #8389c7 62%,
+    #9795d4 75%,
+    #a2a1dc 87%,
+    #b5aee4 100%
   );
 }
 .content {
@@ -236,7 +240,7 @@ p {
   flex-direction: row;
   justify-content: space-evenly;
 }
-#open{
+#open {
   color: goldenrod;
 }
 
@@ -249,10 +253,6 @@ p {
   font-family: cursive;
 }
 img {
-  height: 100px;
-  width: 100px;
-}
-.imag{
-  width: 25px;
-  height: 25px;
+  height: 50px;
+  width: 50px;
 }
