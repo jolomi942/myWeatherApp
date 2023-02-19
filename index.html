@@ -3,6 +3,7 @@
   <head>
     <title>She Codes Plus</title>
     <meta charset="UTF-8" />
+    
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/index.css" />
     <link
@@ -23,54 +24,72 @@
       />
 
       <br />
-      <form id="search-form" > 
-        <input 
+      <form id="search-form" >
+       
+        <input
           class="input-1"
           type="text"
-          placeholder="Enter a city"
+          placeholder=  "Enter a city " 
           autocomplete="off"
           autofocus="on"
           id="search-input"
+          
         />
-        <input class="input-2" type="submit" value="Search" />
+        
+        <input class="input-2" type="submit" value="Search"  />
       </form>
       <br />
-    
+
       <div class="content">
         <div class="set-1">
           <div class="col-2" id="comp">City</div>
-          <div class="col-3" id="temp">Temp</div>
+          <div class="col-3" id="temp">
+            <img src="images/temperature.png" alt="" /> Temp
+          </div>
           <div class="col-3" id="describe">Description</div>
         </div>
-        <br>
-        <br>
+        <br />
+        <br />
         <div class="row" id="flag">
           <div class="col-3" id="dateToday">Friday 14:14</div>
           <div class="col-3" id="globe">🌏</div>
         </div>
 
-        <p>
-          <div class=" sect">
-
-            <div class="row" id="emoji">
-              
-              <div class="col-3 hum">🌤</div>
-              <div class="col-3 wind">🌩</div>
-              <div class="col-3 geo">⛈</div>
-              <div class="col-3 count">🏛</div>
+        <p></p>
+        <div class="sect">
+          <div class="row" id="emoji">
+            <div class="col-3 hum">
+              <img
+                src="images/external-humidity-weather-smashingstocks-flat-smashing-stocks.png"
+                alt="temp image"
+              />
             </div>
-          </p>
+            <div class="col-3 wind">
+              <img src="images/wea-4168197-3457128.png" alt="" />
+            </div>
+            <div class="col-3 geo">
+              <img
+                src="images/geolocation-3252264-2709910.png"
+                alt="temp image"
+              />
+            </div>
+            <div class="col-3 count">🏛</div>
+          </div>
+
           <div class="row" id="set">
             <div class="col-3" id="humidity">Humidity</div>
             <div class="col-3" id="windSpeed">Wind Speed</div>
             <div class="col-3" id="geoLocation">Geolocation</div>
             <div class="col-3" id="country">Country</div>
           </div>
-          <br>
-          <div id="footer">This page was created by <small><a href="https://github.com/jolomi942">Esther Jolomi Adeyinka</a></small></div>
-          
+          <br />
+          <div id="footer">
+            <small
+              ><a href="https://github.com/jolomi942" id="open">Open-sourced code </a>
+            </small>
+            by Esther Jolomi Adeyinka
           </div>
-        
+        </div>
       </div>
     </div>
   </body>

@@ -1,3 +1,4 @@
+
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/067/785/original/44ebc3095a5deba2973f0e5fd3fb92b5.gif?1676475202);
   background-size: cover;
@@ -35,16 +36,19 @@ html {
 .input-1 {
   width: 500px;
   height: 50px;
+  background-image:url();
   background-color: rgb(220, 218, 218);
-  border-style: hidden;
+  border-color: black;
   border-radius: 20px;
   font-size: 25px;
   text-align: center;
+ 
 }
 
 .input-2 {
   background-color: goldenrod;
-  color: white;
+  color: black;
+  border-color: black;
   text-align: center;
   width: 100px;
   height: 40px;
@@ -61,18 +65,20 @@ p {
   font-size: 5px;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 40px;
+  font-size:30px;
   line-height: 30px;
 }
 
 #comp {
-  font-size: 40px;
-  height: 15px;
+  font-size: 30px;
+  height: 20px;
+  line-height: 35px;
+  font-weight: 500px;
 }
 .set-1 {
   flex-direction: row;
   display: flex;
-  font-size: 40px;
+  font-size: 30px;
   height: 20px;
   justify-content: space-evenly;
   margin: 10px;
@@ -106,15 +112,17 @@ p {
   display: block;
   transition: all 200ms ease-in-out;
   opacity: 0.7;
-  border-radius: 50%;
+  border-radius: 10%;
   text-align: center;
   font-family: monospace;
   font-size: 40px;
+  
 }
 .tem:hover {
   cursor: pointer;
   border-style: solid;
   font-size: 50px;
+  width: 20px;
   border-color: rgb(189, 189, 235);
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -129,16 +137,15 @@ p {
   display: block;
   transition: all 200ms ease-in-out;
   opacity: 0.7;
-  border-radius: 50%;
+  border-radius: 10%;
   justify-content: center;
   font-family: monospace;
   text-align: center;
-  font-size: 40px;
 }
 .hum:hover {
   cursor: pointer;
-  border-style: solid;
   font-size: 50px;
+  width: 20px;
   border-color: rgb(189, 189, 235);
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -153,14 +160,15 @@ p {
   display: block;
   transition: all 200ms ease-in-out;
   opacity: 0.7;
-  border-radius: 50%;
+  border-radius: 10%;
   justify-content: center;
   font-family: monospace;
   font-size: 40px;
 }
 .wind:hover {
   cursor: pointer;
-  font-size: 50px;
+  font-size: 10px;
+  width: 20px;
   border-color: rgb(189, 189, 235);
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -175,17 +183,17 @@ p {
   display: block;
   transition: all 200ms ease-in-out;
   opacity: 0.7;
-  border-radius: 50%;
+  border-radius: 10%;
   justify-content: center;
   font-family: monospace;
   font-size: 40px;
+  width: 5px;
 }
 
 .geo:hover {
   cursor: pointer;
-  border-style: solid;
-  border-color: blue;
   font-size: 50px;
+  
   border-color: rgb(189, 189, 235);
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -200,16 +208,15 @@ p {
   display: block;
   transition: all 200ms ease-in-out;
   opacity: 0.7;
-  border-radius: 50%;
+  border-radius: 10%;
   justify-content: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .count:hover {
   cursor: pointer;
-  border-style: solid;
-  border-color: blue;
   font-size: 50px;
+  
   border-color: rgb(189, 189, 235);
   background: radial-gradient(
     328px at 2.9% 15%,
@@ -229,13 +236,23 @@ p {
   flex-direction: row;
   justify-content: space-evenly;
 }
+#open{
+  color: goldenrod;
+}
 
 #footer {
-  
   padding: 10px 10px 0px 10px;
   bottom: 0;
   text-align: center;
   /* Height of the footer*/
   height: 40px;
   font-family: cursive;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+.imag{
+  width: 25px;
+  height: 25px;
 }

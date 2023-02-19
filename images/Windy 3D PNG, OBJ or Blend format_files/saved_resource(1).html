@@ -1,0 +1,236 @@
+
+<!-- saved from url=(0011)about:blank -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Messaging window</title></head><body style="margin: 0px;"><div><div class="skeletonLoader" dir="ltr" data-full-screen="false" data-vertical-small-screen="false">
+      <section class="header">
+        <div class="headerContent">
+          <div class="avatarIcon"></div>
+          <div class="headerDetails">
+            <h2 class="headerTitle">IconScout Support</h2>
+            
+          </div>
+        </div>
+        <div class="closeButtonContainer">
+          <button id="closeButton" class="closeButton" type="button" aria-label="Close">
+            <img src="data:image/svg+xml;base64,CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjEiIGhlaWdodD0iMTMiIHZpZXdCb3g9IjAgMCAyMSAxMyIgZm9jdXNhYmxlPSJmYWxzZSIgcm9sZT0icHJlc2VudGF0aW9uIj4KCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0yMC4xMDA1IDIuNzE2OUwxMC45OTMxIDExLjgyNDRDMTAuNDcyNCAxMi4zNDUxIDkuNjI4MTUgMTIuMzQ1MSA5LjEwNzQ1IDExLjgyNDRMLTguMDA4MjllLTA2IDIuNzE2OUwxLjg4NTYxIDAuODMxMjc4TDEwLjA1MDMgOC45OTU5M0wxOC4yMTQ5IDAuODMxMjc4TDIwLjEwMDUgMi43MTY5WiIgLz4KPC9zdmc+Cg==" class="closeButtonIcon">
+          </button>
+        </div>
+      </section>
+    <style>
+    .skeletonLoader {
+      background-color: #fff;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      inset: 0;
+      overscroll-behavior: none;
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Arial,sans-serif;
+    }
+
+    .header {
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 0;
+      padding: 0.75rem;
+      background-color: #ffffff;
+      color: #333;
+      word-break: break-word;
+    }
+
+    [dir="ltr"] .header {
+      padding-left: 0.5rem;
+    }
+
+    [dir="rtl"] .header {
+      padding-right: 0.5rem;
+    }
+
+    [data-full-screen="true"] .header {
+      padding: 0.8571428571428571rem;
+    }
+
+    [data-full-screen="true"][dir="ltr"] .header {
+      padding-left: 0.5714285714285714rem;
+    }
+
+    [data-full-screen="true"][dir="rtl"] .header {
+      padding-right: 0.5714285714285714rem;
+    }
+
+    .headerContent {
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      min-height: 2.5rem;
+      min-width: 0;
+    }
+
+    [data-full-screen="true"] .headerContent {
+      min-height: 2.857142857142857rem;
+    }
+
+    .headerDetails {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1;
+      color: #333;
+      min-width: 0;
+      margin-bottom: 0.25rem;
+      margin-top: 0.25rem;
+    }
+
+    [dir="ltr"] .headerDetails{
+      margin-left: 1rem;
+    }
+
+    [dir="rtl"] .headerDetails {
+      margin-right: 1rem;
+    }
+
+    [dir="ltr"] .avatarIcon + .headerDetails  {
+      padding-left: 1rem;
+      margin-left: 0;
+    }
+
+    [dir="rtl"] .avatarIcon + .headerDetails {
+       padding-right: 1rem;
+       margin-right: 0;
+    }
+
+    [data-full-screen="true"] .headerDetails {
+      margin-bottom: 0.2857142857142857rem;
+      margin-top: 0.2857142857142857rem;
+    }
+
+    [data-full-screen="true"][dir="ltr"] .headerDetails{
+      padding-left: 0;
+      margin-left: 1.1428571428571428rem;
+    }
+
+    [data-full-screen="true"][dir="rtl"] .headerDetails {
+      padding-right: 0;
+      margin-right: 1.1428571428571428rem;
+    }
+
+    [data-full-screen="true"][dir="ltr"] .avatarIcon + .headerDetails  {
+      padding-left: 1.1428571428571428rem;
+      margin-left: 0;
+   }
+
+    [data-full-screen="true"][dir="rtl"] .avatarIcon .headerDetails {
+      padding-right: 1.1428571428571428rem;
+      margin-right: 0;
+    }
+
+    .headerTitle {
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.028125rem;
+      margin: 0;
+    }
+
+    [data-full-screen="true"] .headerTitle {
+      font-size: 1.2857142857142858rem;
+      line-height: 1.7142857142857142rem;
+      font-weight: 600;
+      letter-spacing: -0.03214285714285715rem;
+    }
+
+    .headerDescription {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+      letter-spacing: -0.009375rem;
+      margin: 0;
+    }
+
+    [data-full-screen="true"] .headerDescription {
+      font-size: 1rem;
+      line-height: 1.4285714285714286rem;
+      letter-spacing: -0.010714285714285714rem;
+      text-wrap: avoid;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .avatarIcon {
+      display: flex;
+      align-items: center;
+      min-height: 2.5rem;
+      min-width: 0;
+      height: 2.5rem;
+      width: 2.5rem;
+      flex-shrink: 0;
+      border-radius: "50%";
+    }
+
+    [dir="ltr"] .avatarIcon {
+      margin-left: 0.5rem;
+      margin-right: 0;
+    }
+
+    [dir="rtl"] .avatarIcon {
+      margin-left: 0;
+      margin-right: 0.5rem;
+    }
+
+    [data-full-screen="true"] .avatarIcon {
+      min-height: 2.857142857142857rem;
+      height: 2.857142857142857rem;
+      width: 2.857142857142857rem;
+    }
+
+    [data-full-screen="true"][dir="ltr"] .avatarIcon {
+      margin-left: 0.5714285714285714rem;
+      margin-right: 0;
+    }
+
+    [data-full-screen="true"][dir="rtl"] .avatarIcon {
+      margin-left: 0;
+      margin-right: 0.5714285714285714rem;
+    }
+
+    .closeButtonContainer {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 2rem;
+    }
+
+    [data-vertical-small-screen="true"] .closeButtonContainer {
+      display: flex;
+      min-height: 2rem;
+    }
+
+    [data-full-screen="true"] .closeButtonContainer {
+      display: flex;
+      min-height: 2.2857142857142856rem;
+    }
+
+    .closeButton {
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color:#ffffff;
+      color: #333;
+      align-self: center;
+      border: 0;
+      cursor: pointer;
+    }
+
+    [data-full-screen="true"] .closeButton {
+      width: 2.857142857142857rem;
+      height: 2.857142857142857rem;
+    }
+
+    .closeButtonIcon {
+      width: 1rem;
+      height: 1rem;
+      filter: invert(0);
+    }
+
+    [data-full-screen="true"] .closeButtonIcon {
+      width: 1.1428571428571428rem;
+      height: 1.1428571428571428rem;
+    }
+  </style></div></div></body></html>
